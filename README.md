@@ -1,6 +1,6 @@
 # Banking-Project
-A banking application containing information of bank and maintaining customer account transaction and employee record.
-It is a Java full-stack web application designed to simulate an online bankingp latform
+A banking application containing information of the bank and maintaining customer account transactions and employee record.
+It is a Java full-stack web application designed to simulate an online banking platform
 # Features
 The application allows users to 
 * create accounts
