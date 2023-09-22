@@ -1,0 +1,42 @@
+create table account
+(
+acc_no varchar(20),
+c_name varchar(20),
+cf_name varchar(20),
+c_dob varchar(20),
+c_gender varchar(20),
+aop_date varchar(20),
+c_add varchar(20),
+c_contact varchar(20)
+);
+
+create table account
+(
+acc_no varchar(20),
+c_name varchar(20),
+cf_name varchar(20),
+c_dob varchar(20),
+c_gender varchar(20),
+aop_date varchar(20),
+c_add varchar(20),
+c_contact varchar(20),
+role varchar(20),
+password varchar(20),
+sques varchar(20),
+sans varchar(20)
+);
+  
+
+insert into account values('A001','Admin','Fadmin','01.01.2000','Male','19.07.2023','Jabalpur','8816902714','Admin','123','BirthPlace','India');
+
+
+create table transactionbank
+(
+    account_no varchar(20),
+    ref varchar(20),
+do_trans varchar(20),
+trans_id varchar(20),
+dep_amount int,
+wdrw_amount int,
+net_bal int
+);
